@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+    <html lang="hr">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Html 4 Vjezba 11</title>
+        </head>
+        <body>
+            <form action="rezultat.php" method="post"> 
+                <label for="fname"><b>First Name *</label>
+                <br>
+                <input type="text" id="fname" name="firstname" placeholder="Your first name.." required>
+                <br><br>
+                <label for="lname">Last Name *</label>
+                <br>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+                <br><br>
+                <label for="email">Your E-mail *</label>
+                <br>
+                <input type="email" id="email" name="email" placeholder="Your E-mail.." required>
+                <br><br>
+                <label for="country">Country</label>
+                <br>
+                <select id="country"name="country">
+                    <option value="BE">Belgium</option>
+                    <option value="HR"selected>Croatia</option>
+                    <option value="LU">Luxembourg</option>
+                    <option value="HU">Hungary</option>
+                </select>
+                <br><br>
+                <label for="message">Message</label>
+                <br>
+                <textarea name="message" id="message" placeholder="Write something..."></textarea>
+                <br>
+                <input type="submit" class="btn btn-default" value="Send"> 
+				<input type="reset" class="btn btn-default" value="Reset">
+            </form>
+        </body>
+    </html>

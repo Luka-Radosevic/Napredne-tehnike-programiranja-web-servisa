@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Narudzba>
+    <Ime>Ivana</Ime>
+    <Prezime>Markovic</Prezime>
+    <MjestoStanovanja>
+        <Adresa>Trg bana Jelačića 1</Adresa>
+        <Grad>Zagreb</Grad>
+        <Drzava>Hrvatska</Drzava>
+    </MjestoStanovanja>
+    <NaruceniArtikl>
+        <Naziv>Računalo</Naziv>
+        <Kolicina>1</Kolicina>
+        <Cijena>5000.00</Cijena>
+    </NaruceniArtikl>
+</Narudzba>

@@ -1,0 +1,19 @@
+body { 
+    margin: 20px; font-family: Arial, sans-serif; 
+}
+
+h1 {
+    color: #333; 
+}
+
+.output {
+    margin-top: 20px; font-weight: bold; 
+}
+            
+.radio-buttons { 
+    margin: 15px 0; 
+}
+            
+.radio-buttons label {
+    display: block; margin: 5px 0; 
+}

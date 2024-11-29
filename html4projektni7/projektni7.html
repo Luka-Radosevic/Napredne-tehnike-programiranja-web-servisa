@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css">
+		<title>Html 4 Projektni zadatak 7</title>
+	</head>
+	<body>
+		<header>
+			<nav>
+				<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="#">News</a></li>
+				<li><a href="#">Contact</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Gallery</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<h1>Contact Form</h1>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2781.7890741539636!2d15.966758816056517!3d45.795453279106205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765d68b5d094979%3A0xda8bfa8459b67560!2sUl.+Vrbik+VIII%2C+10000%2C+Zagreb!5e0!3m2!1shr!2shr!4v1509296660756" width="40%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+			<form action="rezultat.php" method="post"> 
+				<label for="fname"><b>First Name *</label>
+				<br>
+				<input type="text" id="fname" name="firstname" placeholder="Your first name.." required>
+				<br><br>
+				<label for="lname">Last Name *</label>
+				<br>
+				<input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+				<br><br>
+				<label for="email">Your E-mail *</label>
+				<br>
+				<input type="email" id="email" name="email" placeholder="Your E-mail.." required>
+				<br><br>
+				<label for="country">Country</label>
+				<br>
+				<select id="country"name="country">
+					<option value="BE">Belgium</option>
+					<option value="HR"selected>Croatia</option>
+					<option value="LU">Luxembourg</option>
+					<option value="HU">Hungary</option>
+				</select>
+				<br><br>
+				<label for="message">Message</label>
+				<br>
+				<textarea name="message" id="message" placeholder="Write something..."></textarea>
+				<br>
+				<input type="submit" class="btn btn-default" value="Send"> 
+				<input type="reset" class="btn btn-default" value="Reset">
+			</form>
+		</main>
+		<footer>
+			<p>Copyright &copy; 2024 Luka Radosevic</p>
+		</footer>
+	</body>
+</html>

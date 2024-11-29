@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DB 2 Vjezba 16</title>
+</head>
+<body>
+    <h2>Registration Form</h2>
+    <form action="register.php" method="post">
+        <label for="first_name"><b>First Name:</b></label> <br>
+        <input type="text" id="first_name" name="first_name" placeholder="Your name.." required><br>
+
+        <br><label for="last_name"><b>Last Name:</b></label> <br>
+        <input type="text" id="last_name" name="last_name" placeholder="Your last name.." required><br>
+
+        <br><label for="email"><b>Your E-mail</b></label> <br>
+        <input type="email" id="email" name="email" placeholder="Your e-mail.." required><br>
+
+        <br><label for="username"><b>Username: <small style="color:red;">(Username must gave min 5 and max 10 char)</small></b></label> <br>
+        <input type="text" id="username" name="username" pattern=".{5,10}" placeholder="Username.." required><br>
+
+        <br><label for="password"><b>Password: <small style="color:red;">(minimum 4 characters)</small></b></label> <br>
+        <input type="password" id="password" name="password" pattern=".{4,}" placeholder="Password.." required><br>
+
+        <br><label for="country">Country:</label><br>
+        <select id="country" name="country" required>
+            <option value="">Select Country</option>
+            <option value="USA">USA</option>
+            <option value="Canada">Canada</option>
+            </select><br>
+
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>

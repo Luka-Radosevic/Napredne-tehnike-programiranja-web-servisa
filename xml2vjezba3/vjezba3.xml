@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Osoba spol="Ž">
+    <Ime>Ivana</Ime>
+    <Prezime>Marković</Prezime>
+    <MjestoStanovanja>
+        <Adresa>Trg bana Jelačića 2</Adresa>
+        <Grad>Zagreb</Grad>
+        <Drzava>Hrvatska</Drzava>
+    </MjestoStanovanja>
+    <Kontakt>
+        <Mobitel>0911234567</Mobitel>
+        <KucniTelefon>012345678</KucniTelefon>
+        <Email>ivana.markovic@example.com</Email>
+    </Kontakt>
+</Osoba>

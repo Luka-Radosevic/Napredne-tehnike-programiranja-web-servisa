@@ -1,0 +1,10 @@
+.float-image {
+    float: left;
+    margin-right: 1%;
+    width: 150px;
+    height: auto;
+    }
+
+    p{
+        padding-bottom:10px;
+    }

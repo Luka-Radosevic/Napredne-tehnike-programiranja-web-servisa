@@ -1,0 +1,15 @@
+body { 
+    font-size: 16px; margin: 10px; font-family: "Times New Roman";
+} 
+       
+h1 { 
+    font-size:24px 
+}
+        
+p,label { 
+    display:block; 
+}
+        
+div {
+    display:block; margin: 10px 0;
+}

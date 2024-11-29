@@ -1,0 +1,15 @@
+.guess-form {
+    margin-bottom: 20px;
+}
+
+.result {
+    text-align: center;
+}
+
+.correct {
+    color: green;
+}
+
+.incorrect {
+    color: red;
+}

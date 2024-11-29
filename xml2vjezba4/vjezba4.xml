@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<books>
+    <book id="bk101">
+        <author>Corets, Maeve Eva</author>
+        <title>Ascendant</title>
+        <genre>Fantasy</genre>
+        <price>115</price>
+        <year>2001</year>
+        <month>03</month>
+        <day>10</day>
+        <description>In post-apocalypse England, the mysterious agent known only as Oberon helps to create a new life for the inhabitants of London. Sequel to Maeve Ascendant.</description>
+    </book>
+    <book id="bk102">
+        <author>Ralls, Kim</author>
+        <title>Midnight Rain</title>
+        <genre>Fantasy</genre>
+        <price>250</price>
+        <year>2000</year>
+        <month>11</month>
+        <day>17</day>
+        <description>After the collapse of a nanotechnology society in England, the young survivors lay the foundation for a new society.</description>
+    </book>
+</books>
