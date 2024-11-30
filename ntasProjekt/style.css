@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+}
+
+.main {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1100px;
+    background-color: rgb(240, 240, 240);
+    padding-bottom: 50px;
+}
+
+.ispis{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1100px;
+    background-color: rgb(240, 240, 240);
+    padding:20px;
+}
+
+.forma {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1000px;
+    background-color: rgb(240, 240, 240);
+    padding:10px;
+}
+
+hr{
+    height:2px;
+    background-color:rgb(87, 87, 87);
+}
+header {
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+    background-color: rgb(216, 0, 0);
+    position:relative;
+    top:-4vh;
+    display:flex;
+    z-index: 0;
+    height:4vh;
+}
+
+.putovanje{
+    width:1000px;
+    padding:10px;
+    margin:0 auto;
+}
+
+.grupa{
+    width: 320px;
+    background-color: white;
+    padding-bottom: 60px;
+    box-shadow: 0px -2px 0px 0px rgba(107, 107, 107, 0.85) inset;
+}
+
+.articles{
+    display: flex;
+    justify-content: space-between;
+}
+.cont-main{
+    padding-left:50px;
+}
+.clanak{
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 10px 10px 0px 10px;
+}
+
+img{
+    width:320px;
+}
+
+.navigacija{
+    display: grid;
+    grid-template-columns: 34vw auto auto auto auto auto auto auto;
+}
+
+h2{
+    color:rgb(87, 87, 87);
+}
+
+.naslov {
+    position: relative;
+    left: 23vw;
+    top: 0px;
+    background-color: rgb(216, 0, 0);
+    color: white;
+    width: 10vw;
+    padding: 8px;
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    box-shadow: 3px 0px 5px 0px rgba(0,0,0,0.75);
+    display:inline-block;
+    z-index: 1;
+}
+
+.naslov p{
+    font-size: 13px;
+    font-weight: bolder;
+}
+
+nav {
+    margin-left: 10px;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+.navigacijaGumb {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 10px;
+}
+
+.navigacijaGumb:hover {
+    background-color: white;
+    color: rgb(216, 0, 0);
+}
+
+footer{
+    background-color: rgb(60, 60, 60);
+    color:white;
+    text-align: center;
+    padding: 11px;
+    font-size: 15px;
+}
+
+footer p{
+    position:relative;
+    top:
+}
